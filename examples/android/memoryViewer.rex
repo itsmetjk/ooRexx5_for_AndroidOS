@@ -1,7 +1,7 @@
-SAY "Speichernutzung überwachen"
+SAY "View Memory Info"
 
-/* Speicherinformationen abrufen */
+/* Retrieve Memory Info*/
 ADDRESS SYSTEM "free -h"
 ADDRESS SYSTEM "df -h"
 
-SAY "Speicherstatus wurde abgerufen."
+SAY "Memory status retrieved."
